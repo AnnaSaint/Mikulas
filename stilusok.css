@@ -47,6 +47,7 @@ nav ul {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
 }
 
 nav li {
@@ -71,14 +72,18 @@ nav li a {
 
 aside {
   grid-area: as;
+  padding: 10px;
 }
 
 aside img {
   width: 100%;
+  border: red solid 1px;
+  padding: 2px;
 }
 
 article {
   grid-area: ar;
+  padding: 10px;
 }
 
 article h2 {
